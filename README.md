@@ -1,77 +1,93 @@
-# Frontend Mentor - Shortly URL Shortening API Challenge Solution
+# Shortly URL Shortener
 
-This repository contains my solution to the [Shortly URL shortening API Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G). The goal of this project is to build a responsive URL shortening landing page that interacts with a public API.
+This project is a solution to the [Frontend Mentor Shortly URL Shortening API Challenge](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G). It is a responsive web application that allows users to shorten URLs using a public API, manage their shortened links, and copy them easily.
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
-- [Screenshot](#screenshot)
-- [Links](#links)
+- [Screenshots](#screenshots)
+- [Demo](#demo)
 - [Built With](#built-with)
+- [Getting Started](#getting-started)
 - [What I Learned](#what-i-learned)
-- [Continued Development](#continued-development)
-- [Useful Resources](#useful-resources)
+- [Future Improvements](#future-improvements)
+- [Resources](#resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
-This project allows users to shorten URLs, view a list of their shortened links (persisted after refresh), and copy links to the clipboard. The layout is fully responsive and adapts to different screen sizes.
+Shortly URL Shortener lets users:
+- Enter a URL and get a shortened version via a public API.
+- View and manage a list of their shortened links (persisted in local storage).
+- Copy shortened links to the clipboard with one click.
+- Enjoy a fully responsive and accessible design.
 
 ## Features
 
-- Responsive design for all device sizes
-- Shorten any valid URL using a public API
-- Persistent list of shortened links (local storage)
-- Copy shortened links to clipboard with one click
-- Error handling for empty input fields
+- **Responsive Design:** Works on all device sizes.
+- **URL Shortening:** Integrates with a public API to shorten URLs.
+- **Persistent Links:** Stores shortened links in local storage.
+- **Copy to Clipboard:** One-click copy functionality.
+- **Error Handling:** User-friendly error messages for invalid input.
 
-## Screenshot
+## Screenshots
 
-![Screenshot of the Shortly URL Shortening App](./screenshot.jpg)
+![Shortly URL Shortener Screenshot](./screenshot.jpg)
 
-## Links
+## Demo
 
-- [Solution on Frontend Mentor](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Live Demo](https://your-live-site-url.com)
+- [Frontend Mentor Solution](https://your-solution-url.com)
 
 ## Built With
 
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 - Semantic HTML5
 - CSS custom properties
 - Flexbox & CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/)
-- [Next.js](https://nextjs.org/)
-- [Styled Components](https://styled-components.com/)
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/shortly-url-shortener.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## What I Learned
 
-During this project, I improved my skills in:
+- How to consume APIs in React.
+- Managing state and local storage for data persistence.
+- Creating responsive layouts with Tailwind CSS, Grid, and Flexbox.
+- Implementing copy-to-clipboard functionality.
 
-- Consuming APIs in React
-- Managing state and local storage for persistence
-- Creating responsive layouts with CSS Grid and Flexbox
-- Implementing copy-to-clipboard functionality
-
-Example code snippet for copying to clipboard:
-
+**Example: Copy to Clipboard**
 ```js
 const copyToClipboard = (text) => {
   navigator.clipboard.writeText(text);
 };
 ```
 
-## Continued Development
+## Future Improvements
 
-In future projects, I plan to:
+- Add user authentication for personalized link management.
+- Improve accessibility and keyboard navigation.
+- Add analytics for shortened links.
+- Enhance error handling and user feedback.
 
-- Explore more advanced state management solutions
-- Improve accessibility and keyboard navigation
-- Add user authentication for personalized link management
-
-## Useful Resources
+## Resources
 
 - [MDN Web Docs - Using the Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
