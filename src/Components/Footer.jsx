@@ -5,7 +5,7 @@ import instagram from "../assets/images/icon-instagram.svg";
 
 export default function Footer() {
   return (
-    <footer className="grid grid-cols-1 md:grid-cols-6 gap-8 text-center md:text-left text-white bg-gray-800 p-16 px-[5%] md:px-[10%] text-[1rem]">
+    <footer className="grid grid-cols-1 md:grid-cols-6 gap-8 text-center md:text-left text-white bg-gray-900/95 p-16 px-[5%] md:px-[10%] text-[1rem]">
       <div className="col-span-1 md:col-span-2 m-auto md:m-0">
         <p className="text-3xl font-bold text-gray-50">LinkSlice</p>
       </div>
