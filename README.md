@@ -1,6 +1,6 @@
-# Shortly URL Shortener
+# LinkSlice - URL Shortener
 
-This project is a solution to the [Frontend Mentor Shortly URL Shortening API Challenge](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G). It is a responsive web application that allows users to shorten URLs using a public API, manage their shortened links, and copy them easily.
+This project is a solution to the [Frontend Mentor Shortly URL Shortening API Challenge](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G). LinkSlice is a responsive web application that allows users to shorten URLs using a public API, manage their shortened links, and copy them easily.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ This project is a solution to the [Frontend Mentor Shortly URL Shortening API Ch
 
 ## Overview
 
-Shortly URL Shortener lets users:
+LinkSlice lets users:
 - Enter a URL and get a shortened version via a public API.
 - View and manage a list of their shortened links (persisted in local storage).
 - Copy shortened links to the clipboard with one click.
@@ -34,7 +34,7 @@ Shortly URL Shortener lets users:
 
 ## Screenshots
 
-![Shortly URL Shortener Screenshot](./screenshot.jpg)
+![LinkSlice Screenshot](./screenshot.jpg)
 
 ## Demo
 
@@ -52,15 +52,15 @@ Shortly URL Shortener lets users:
 
 ## Getting Started
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/shortly-url-shortener.git
+   git clone https://github.com/yourusername/linkslice-url-shortener.git
    ```
-2. Install dependencies:
+2. **Install dependencies:**
    ```bash
    npm install
    ```
-3. Start the development server:
+3. **Start the development server:**
    ```bash
    npm start
    ```
@@ -95,8 +95,8 @@ const copyToClipboard = (text) => {
 
 ## Author
 
-- [Your Name](https://www.your-site.com)
-- [Frontend Mentor](https://www.frontendmentor.io/profile/yourusername)
+- [codewithstephen](https://www.your-site.com)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/codewithstephen)
 - [Twitter](https://www.twitter.com/yourusername)
 
 ## Acknowledgments
