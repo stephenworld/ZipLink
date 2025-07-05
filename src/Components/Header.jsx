@@ -1,8 +1,8 @@
 import illustration from "../assets/images/illustration-working.svg";
 export default function Header() {
   return (
-    <section className="text-center md:text-left px-[5%] py-8 flex flex-col-reverse md:flex-row items-center justify-between gap-12 md:gap-16">
-      <header className="w-full md:w-[40%]">
+    <section className="text-center md:text-left px-[5%] md:px-[10%] py-8 flex flex-col-reverse md:flex-row items-center justify-between gap-12 md:gap-16">
+      <header className="w-full md:w-[50%]">
         <h1 className="text-4xl md:text-7xl font-bold text-gray-900">
           More than just shorter links
         </h1>
