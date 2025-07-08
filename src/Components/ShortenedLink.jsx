@@ -11,7 +11,9 @@ export default function ShortenedLink({ shortUrl, error, inputUrl }) {
   };
   return (
     <article className="text-base flex w-full flex-col md:flex-row gap-4 justify-between md:items-center bg-white p-2 md:p-4 rounded-md shadow-md">
-      <p className="border-b md:border-none pb-3 md:pb-0">{inputUrl}</p>
+      <p className="border-b md:border-none pb-3 md:pb-0 w-full overflow-x-scroll">
+        {inputUrl}
+      </p>
       <div className="w-full md:w-auto flex md:items-center flex-col md:flex-row justify-between gap-2 md:gap-4">
         {error ? (
           <p className="text-red-500">{error}</p>

@@ -19,6 +19,7 @@ This project is a solution to the [Frontend Mentor Shortly URL Shortening API Ch
 ## Overview
 
 LinkSlice lets users:
+
 - Enter a URL and get a shortened version via a public API.
 - View and manage a list of their shortened links (persisted in local storage).
 - Copy shortened links to the clipboard with one click.
@@ -38,32 +39,35 @@ LinkSlice lets users:
 
 ## Demo
 
-- [Live Demo](https://your-live-site-url.com)
-- [Frontend Mentor Solution](https://your-solution-url.com)
+- [linkslice.vercel.app](https://linkslice.vercel.app)
+- [Link Slice](https://github.com/stephenworld/ZipLink)
 
 ## Built With
 
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- Semantic HTML5
-- CSS custom properties
-- Flexbox & CSS Grid
 - Mobile-first workflow
 
 ## Getting Started
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/yourusername/linkslice-url-shortener.git
    ```
+
 2. **Install dependencies:**
+
    ```bash
    npm install
    ```
+
 3. **Start the development server:**
+
    ```bash
    npm start
    ```
+
 4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## What I Learned
@@ -72,8 +76,8 @@ LinkSlice lets users:
 - Managing state and local storage for data persistence.
 - Creating responsive layouts with Tailwind CSS, Grid, and Flexbox.
 - Implementing copy-to-clipboard functionality.
-
 **Example: Copy to Clipboard**
+
 ```js
 const copyToClipboard = (text) => {
   navigator.clipboard.writeText(text);
@@ -91,13 +95,12 @@ const copyToClipboard = (text) => {
 
 - [MDN Web Docs - Using the Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [Frontend Mentor Community](https://www.frontendmentor.io/community)
 
 ## Author
 
-- [codewithstephen](https://www.your-site.com)
-- [Frontend Mentor](https://www.frontendmentor.io/profile/codewithstephen)
-- [Twitter](https://www.twitter.com/yourusername)
+- [codewithstephen](codewithstephen.vercel.app)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/demostephen)
+- [Twitter](https://www.twitter.com/codewithstephen)
 
 ## Acknowledgments
 
